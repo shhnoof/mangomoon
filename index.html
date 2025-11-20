@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mango Moon </title>
+    <!--/google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <!-- International Telephone Input CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <style>
+        /* Additional custom styles */
+        .success-message {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid #c3e6cb;
+        }
+    </style>
+</head>
+
+<body>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                        <span class="sublog">Mango</span>Moon
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item" title="Search"><a href="#search" class="search-search">
+                                <span class="fas fa-search" aria-hidden="true"></span></a></li>
+                        <li class="nav-item me-lg-3"><a href="" class="phone-btn btn btn-primary btn-style d-none d-lg-block btn-style ms-2">Purchase</a></li>
+                    </ul>
+
+                    <!-- //toggle switch for light and dark theme -->
+
+                    <!-- search popup -->
+                    <div id="search" class="w3lpop-overlay">
+                        <div class="w3lpopup">
+                            <form action="#formsearch" method="GET" class="d-sm-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search" required="">
+                                <button class="btn btn-style btn-primary" type="submit">Search</button>
+                                <a class="close" href="#formsearch">&times;</a>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!-- main-slider -->
+    <section class="w3l-main-content" id="home">
+        <div class="container">
+            <div class="row align-items-center w3l-slider-grids">
+                <div class="col-lg-6 w3l-slider-left-info pe-lg-5">
+                    <h6 class="title-subhny mb-2">We are gathered</h6>
+                    <h3 class="mb-2 title"> <span></span>  </h3>
+                    <h3 class="mb-4 title">Mango Moon</h3>
+                    <p class="w3banr-p">Welcome to My Mango Moon – your perfect blend of comfort, convenience, and community. Nestled in a prime location, My Mango Apartment offers thoughtfully designed living spaces that feel like home from the moment you walk in. Whether you're a young professional, student, or family, our apartments are crafted to meet your modern lifestyle needs. With top-notch amenities, a friendly atmosphere, and easy access to city essentials, Mango Apartment isn't just a place to live — it's a place to belong. Discover a space where warmth meets style, and community thrives.</p>
+                    <div class="w3l-buttons mt-sm-5 mt-4">
+                        <a class="btn btn-primary btn-style me-2" href="about.html">Read More </a>
+                        <a class="btn btn-outline-primary btn-style " href="contact.html"> Get Started </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 w3l-slider-right-info mt-lg-0 mt-5 ps-lg-5 align-items-center">
+                    <div class="w3l-main-slider banner-slider">
+                        <div class="slider-info">
+                            <div class="w3l-slidehny-img banner-top1">
+                                <img src="assets/images/header.jpg" alt="" class="radius-image img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-contact-1 w3hny-form-btm py-5" id="contact">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="header-sec text-center mb-5">
+                    <h6 class="title-subhny mb-2">Write Us</h6>
+                    <h3 class="title-w3l">
+                        Don't hesitate to contact us <br> anytime with questions
+                    </h3>
+                </div>
+                <div class="contactct-fm map-content-9">
+                    <!-- Success Message -->
+                    <div id="successMessage" class="success-message">
+                        ✅ Thank you! Your message has been sent successfully. We will get back to you soon.
+                    </div>
+                    
+                    <form action="https://formsubmit.co/mohdshanoof7@gmail.com" class="pt-lg-4" method="POST">
+                        
+                        <!-- Hidden fields for FormSubmit -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Contact Form - Mango Moon">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="#success">
+                        <input type="hidden" name="phone_full" id="phoneFull">
+                        
+                        <div class="twice-two">
+                            <input type="text" class="form-control" name="name" id="w3lName" placeholder="Name" required="">
+                            <input type="tel" class="form-control" name="phone" id="w3lSender" placeholder="Phone Number" required="">
+                            <input type="email" class="form-control" name="email" id="w3lEmail" placeholder="Email Address" required="">
+                        </div>
+
+                        <textarea name="message" class="form-control" id="w3lMessage" placeholder="Message" required=""></textarea>
+                        
+                        <div class="text-lg-center">
+                            <button type="submit" class="btn btn-primary btn-style mt-lg-5 mt-4">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /main-slider -->
+    <section class="w3l-feature-with-photo-1" id="about">
+        <div class="feature-with-photo-hny py-5">
+            <div class="container py-lg-5">
+                <div class="feature-with-photo-content">
+                    <div class="ab-in-flow row mb-lg-5 mb-3">
+                        <div class="col-lg-7 ab-right pl-lg-5">
+                            <h6 class="title-subhny mb-2"><span>About Us</span></h6>
+                            <h3 class="title-w3l mb-4">"More Than a Place to Live — A Place to Belong
+                            </h3>
+                            <p class="mt-4">At My Mango Moon Apartment, we believe that where you live shapes how you live. That's why we've created more than just apartments — we've built a lifestyle. Our mission is to provide modern, comfortable, and community-driven living spaces that offer both peace and connection in the heart of the city.
+
+With a focus on thoughtful design, convenience, and quality service, we aim to make every resident feel at home from day one. Whether you're here for work, study, or a fresh start, Mango Apartment offers a space that fits your lifestyle — with amenities you'll love, a location you'll appreciate, and a community you'll be proud to be part of.
+
+Come home to more than just four walls. Come home to My Mango Apartment — where living meets belonging.</p>
+
+                            <div class="w3l-buttons mt-sm-5 mt-4">
+                                <a class="btn btn-primary btn-style me-2" href="about.html">Read More </a>
+                                <a class="btn btn-outline-primary btn-style mr-2" href="services.html">Services </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 ab-left ps-lg-5">
+                            <img src="assets/images/ab1.jpg" class="img-fluid radius-image" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="w3l-img-grids" id="services">
+        <div class="blog py-5" id="classes">
+            <div class="container py-lg-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 item mt-lg-0 mt-5">
+                        <div class="w3img-grids-info">
+                            <div class="w3img-grids-info-gd position-relative">
+                                <a href="#services">
+                                    <div class="page">
+                                        <div class="photobox photobox_triangular photobox_scale-rotated">
+                                            <div class="photobox__previewbox media-placeholder">
+                                                <img class="img-fluid photobox__preview media-placeholder__media radius-image" src="assets/images/service4.jpg" alt="">
+                                            </div>
+                                            <div class="photobox__info-wrapper">
+                                                <div class="photobox__info"><span>Bed Room</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="w3img-grids-info-gd-content mt-4">
+                                    <a href="#gridsimg" class="titile-img d-block">
+                                        <h4 class="mb-2">Bed Room</h4>
+                                    </a>
+                                    <p class="">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item mt-lg-0 mt-5">
+                        <div class="w3img-grids-info">
+                            <div class="w3img-grids-info-gd position-relative">
+                                <a href="#services">
+                                    <div class="page">
+                                        <div class="photobox photobox_triangular photobox_scale-rotated">
+                                            <div class="photobox__previewbox media-placeholder">
+                                                <img class="img-fluid photobox__preview media-placeholder__media radius-image" src="assets/images/service2.jpg.jpg" alt="">
+                                            </div>
+                                            <div class="photobox__info-wrapper">
+                                                <div class="photobox__info"><span>Hall </span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="w3img-grids-info-gd-content mt-4">
+                                    <a href="#gridsimg" class="titile-img d-block">
+                                        <h4 class="mb-2">Hall</h4>
+                                    </a>
+                                    <p class="">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item mt-lg-0 mt-5">
+                        <div class="w3img-grids-info">
+                            <div class="w3img-grids-info-gd position-relative">
+                                <a href="#services">
+                                    <div class="page">
+                                        <div class="photobox photobox_triangular photobox_scale-rotated">
+                                            <div class="photobox__previewbox media-placeholder">
+                                                <img class="img-fluid photobox__preview media-placeholder__media radius-image" src="assets/images/service5.jpg" alt="">
+                                            </div>
+                                            <div class="photobox__info-wrapper">
+                                                <div class="photobox__info"><span> Kitchen</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="w3img-grids-info-gd-content mt-4">
+                                    <a href="#gridsimg" class="titile-img d-block">
+                                        <h4 class="mb-2">Kitchen</h4>
+                                    </a>
+                                    <p class="">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/tabs-faqs-->
+
+    <!-- //testimonials -->
+    <!--/w3l-project-->
+    <section class="w3l-contact-1 py-5" id="contact">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="row contact-view">
+                    <div class="col-lg-5 cont-details pe-lg-5">
+                        <div class="contactct-fm-text text-left">
+                            <h6 class="title-subhny">Say Hello</h6>
+                            <h3 class="title-w3l mb-2">Get In Touch</h3>
+                            <p class="mb-sm-5 mb-4">Start working with Us that can provide everything you need to generate awareness, drive traffic, connect. We guarantee that you'll be able to have any issue resolved within 24 hours.</p>
+                            <div class="cont-top">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-phone-alt"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Phone number</h5>
+                                    <p><a href="tel:+918714303223">+(91)8714303223</a><br><a href="tel:+919895744017">+(91)9895744017</a></p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-envelope-open-text"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Send Email</h5>
+                                    <p><a href="mailto:mangomoonkochi@gmail.com" class="mail">mangomoonkochi@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-map-marker-alt"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Office Address</h5>
+                                    <p class="pr-lg-5">PRA/74,Amrita Nagar,Edappally,Kochi<br> Ernamkulam, Kerala - 682041.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 cont-details mt-lg-0 mt-5">
+                        <div class="map-content-9">
+                            <div class="map-iframe">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3928.7545273211626!2d76.29178207679325!3d10.03710396446684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAyJzEzLjYiTiA3NsKwMTcnNDguMCJF!5e0!3m2!1sen!2sin!4v1755155327965!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /contact1 -->
+
+    <!-- testimonials -->
+    <section class="w3l-clients" id="clients">
+        <!-- /grids -->
+        <div class="cusrtomer-layout py-5">
+            <div class="container py-lg-5 py-md-3">
+                <!-- /grids -->
+                <div class="testimonial-width">
+                    <div class="item">
+                        <div class="testimonial-content">
+                            <div class="testimonial">
+                                <blockquote>
+                                    <i class="fas fa-quote-left"></i>
+                                    <q>"The first wealth is health. Sleep is the condition that restores strength, calms the mind, and prepares us for clearer thinking. When we find a place that gives us peace, the rest that follows becomes a gift to the soul."</q>
+                                </blockquote>
+                                <div class="testi-des">
+                                    <div class="peopl align-self">
+                                        <h3>Ralph Waldo Emerson</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /grids -->
+        </div>
+        <!-- //grids -->
+    </section>
+    <!--//w3l-project-->
+    
+    <!-- footer -->
+    <section class="w3l-footer-29-main">
+        <div class="footer-29 py-5">
+            <div class="container py-lg-4">
+                <div class="row footer-top-29">
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-1 pe-lg-5">
+                        <div class="footer-logo mb-4">
+                            <h2><a class="navbar-brand" href="index.html">
+                                    <span class="sublog">Mango </span>Moon
+                                </a></h2>
+                        </div>
+                        <p>We prioritize your safety and privacy above everything else. Our apartment is designed with secure access, monitored surroundings, and reliable safety measures to ensure you feel protected at all times. Your personal space and information are treated with the highest level of confidentiality, giving you the freedom to relax, rest, and live comfortably. We are committed to providing a peaceful, private, and secure environment you can truly call home.</p>
+                        <div class="w3l-two-buttons mt-4">
+                            <a href="#trail" class="btn btn-primary btn-style"> Try it For Free </a>
+                        </div>
+                        <div class="main-social-footer-29 mt-5">
+                            <a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#twitter" class="twitter"><span class="fab fa-twitter"></span></a>
+                            <a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
+                            <a href="#linkedin" class="linkedin"><span class="fab fa-linkedin-in"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+                        <ul>
+                            <h6 class="footer-title-29">Links</h6>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="blog.html"> Blog posts</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html"> Blog posts</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Services</h6>
+                        <ul>
+                            <li><a href="#traning">Web Design</a></li>
+                            <li><a href="#traning">Development</a></li>
+                            <li><a href="#traning">Marketing Plans</a></li>
+                            <li><a href="#marketplace">Digital Services</a></li>
+                            <li><a href="#experts">Email Marketing</a></li>
+                            <li><a href="#platform">Product Selling</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">More Info</h6>
+                        <ul>
+                            <li><a href="#seo">Offline SEO</a></li>
+                            <li><a href="#traning">Development</a></li>
+                            <li><a href="#hack">Growth Hacking</a></li>
+                            <li><a href="#studio">Film Studio</a></li>
+                            <li><a href="#branding">Branding</a></li>
+                            <li><a href="#experts">Email Marketing</a></li>
+                            <li><a href="#marketplace">Lead Generation</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Support</h6>
+                        <ul>
+                            <li><a href="#awards">Awards</a></li>
+                            <li><a href="#secutiry">Security</a></li>
+                            <li><a href="#proj">Products</a></li>
+                            <li><a href="#efaq">faQ</a></li>
+                            <li><a href="#help">Help</a></li>
+                            <li><a href="#mail">Mail Us</a></li>
+                            <li><a href="#terms">Terms</a></li>
+                            <li><a href="#policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fas fa-arrow-up"></span>
+        </button>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- /move top -->
+    </section>
+    <!-- //copyright -->
+    <!-- //footer -->
+    
+    <!-- Js scripts -->
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    
+    <!-- faq -->
+    <script>
+        const items = document.querySelectorAll(".accordion button");
+
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
+    <!-- //faq -->
+    
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- International Telephone Input JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    
+    <!-- Form Success Handling Script -->
+    <script>
+        // Show success message when form is submitted
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if URL has success parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('success')) {
+                document.getElementById('successMessage').style.display = 'block';
+                // Clear form fields
+                document.querySelector('form').reset();
+                // Remove the parameter from URL to prevent message on refresh
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+            
+            // Handle form anchor navigation
+            if (window.location.hash === '#success') {
+                document.getElementById('successMessage').style.display = 'block';
+                // Clear form fields
+                document.querySelector('form').reset();
+                // Remove the hash from URL
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+
+        // Initialize international phone input
+        const phoneInputField = document.querySelector("#w3lSender");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            initialCountry: "in",
+            preferredCountries: ["in", "us", "gb", "ae"],
+            separateDialCode: true,
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+        // Get full phone number on form submit
+        const contactForm = document.querySelector('.w3hny-form-btm form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                const fullNumber = phoneInput.getNumber();
+                document.querySelector('#phoneFull').value = fullNumber;
+                
+                if (!phoneInput.isValidNumber()) {
+                    e.preventDefault();
+                    alert('⚠️ Please enter a valid phone number');
+                    return false;
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
